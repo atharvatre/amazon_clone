@@ -1,0 +1,85 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+
+.sign_header img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sign_form{
+    width: 300px; 
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px
+    /* border: 1px solid #c9c9c9;
+    padding: 10px 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+ */
+}
+
+.sign_form>h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.sign_form label{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.login__container>form>h5{
+    margin-bottom: 5px;
+}
+
+.sign_form input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+}
+
+.login__container>p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.sign_form .signin_btn{
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.create_accountinfo button{
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+}
+
+.create_accountinfo p{
+    font-size: 12px;
+    text-align: center;
+    color: #767676;
+    margin-top: 20px;
+    font-weight: 600;
+}
